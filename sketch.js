@@ -31,6 +31,7 @@ function setup(){
 
 
 function draw(){
+  console.log('checking the commands of git')
   if(playerCount === 4){
     game.update(1);
   }
